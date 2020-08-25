@@ -21,5 +21,26 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "administrator": {
+      "tags": []
+    },
+    "administrator-e2e": {
+      "tags": [],
+      "implicitDependencies": ["administrator"]
+    },
+    "subscription": {
+      "tags": []
+    },
+    "subscription-e2e": {
+      "tags": [],
+      "implicitDependencies": ["subscription"]
+    },
+    "functions": {
+      "tags": []
+    },
+    "interfaces": {
+      "tags": []
+    }
+  }
 }

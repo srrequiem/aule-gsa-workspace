@@ -1,0 +1,26 @@
+.AccountSection {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 100%;
+    overflow: auto;
+}
+
+.AccountSectionItem {
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .AccountSection {
+        padding: 2rem;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: flex-start;
+    }
+
+    .AccountSectionItem {
+        flex: 1;
+        padding-right: 1rem;
+    }
+}
